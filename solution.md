@@ -65,6 +65,9 @@ For the wizard, there are 2 components. FormWizardWrapper and FormWizardContent.
 
 **4.1. FormWizardWrapper**
 This is wrapper component for formwizard.
+I was trying to make FormWizard component reusable.
+So we can use this component whether the content is form data or just text.
+It will include the basic validation as well.
 
 **Available props**
 
@@ -87,6 +90,12 @@ This is wrapper for formwizard's content.
 | selected                         | Boolean    |     false        | content that being displayed             |
 | title                         | String    |             | content title, this is required             |
 | hasForm                         | Boolean    |     true        | if the content is not contain form, we should set this as false           |
+
+**Available slot**
+
+| Slot                          | Description                              |
+|-------------------------------|------------------------------------------|
+| error                         | display error page on specific step      |
 
 #### 5. Form Logic
 - I have create validation for all form. So all fields are mandatory. User can't move to next page if we haven't fill all fields.

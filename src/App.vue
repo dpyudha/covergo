@@ -8,9 +8,18 @@
         <form-wizard-content
           :selected="true"
           title="Intro"
-          :has-form="false"
         >
           <div class="text-center">
+            <text-field
+              v-model="formData.name"
+              :value="formData.name"
+              type="text"
+              label="Name"
+              placeholder="Name"
+              class="mb-4"
+              name="name"
+              required
+            />
             <h1 class="text-3xl font-bold mb-4">
               Hello There !
             </h1>
