@@ -1,3 +1,8 @@
+/*
+| ===================================================
+| This File is for common button component
+| ===================================================
+*/
 <template>
   <button
     :class="themeClass"

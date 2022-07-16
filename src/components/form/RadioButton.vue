@@ -1,3 +1,8 @@
+/*
+| ===================================================
+| This File is for form radio button component
+| ===================================================
+*/
 <template>
   <div :class="{ 'text-red-400': !valid && isTriggered }">
     <div
@@ -12,7 +17,7 @@
         :value="option.value"
         @change="change"
       >
-      <label :for="`${name}-${option.value}`">
+      <label class="cursor-pointer" :for="`${name}-${option.value}`">
         {{ option.label }}
       </label>
     </div>

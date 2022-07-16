@@ -1,3 +1,8 @@
+/*
+| ===================================================
+| This File is for form text field component
+| ===================================================
+*/
 <template>
   <div class="relative">
     <p

@@ -1,12 +1,24 @@
 /*
-language file
+| ===================================================
+| This File is for constants
+| ===================================================
 */
 
+/*
+ * Theme constants
+ */
 export const DEFAULT = "default";
 export const LIGHT = "light";
+
+/*
+ * Premium formula constants
+ */
 export const PREMIUM_CONSTANT = 10
 export const MAX_AGE = 100
 
+/*
+ * Form constants
+ */
 export const COUNTRY_DATA = [
   {
     country: 'Hong Kong',

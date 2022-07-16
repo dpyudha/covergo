@@ -1,3 +1,8 @@
+/*
+| ===================================================
+| This File is for form wizard content component
+| ===================================================
+*/
 <template>
   <div
     v-if="active"
