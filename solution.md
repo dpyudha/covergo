@@ -88,3 +88,7 @@ This is wrapper for formwizard's content.
 | title                         | String    |             | content title, this is required             |
 | hasForm                         | Boolean    |     true        | if the content is not contain form, we should set this as false           |
 
+#### 5. Form Logic
+- I have create validation for all form. So all fields are mandatory. User can't move to next page if we haven't fill all fields.
+- **The premium** will displayed after user fill age, country and package fields.
+

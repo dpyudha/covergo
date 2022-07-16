@@ -23,6 +23,7 @@
           <div class="max-w-sm mx-auto">
             <text-field
               v-model="formData.name"
+              :value="formData.name"
               type="text"
               label="Name"
               placeholder="Name"
@@ -32,6 +33,7 @@
             />
             <text-field
               v-model="formData.age"
+              :value="formData.age"
               type="number"
               label="Age"
               placeholder="Age"
@@ -189,7 +191,7 @@ export default {
     },
 
     packageLabel () {
-      const findPackage = [...this.packages].findIndex(pckg => pckg.value = this.formData.package)
+      const findPackage = [...this.packages].findIndex(pckg => pckg.value === this.formData.package)
       return this.packages[findPackage].label
     }
   },

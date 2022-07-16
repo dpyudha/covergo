@@ -39,8 +39,16 @@ export default {
     label: {
       type: String,
       default: 'Label'
+    },
+    value: {
+      type: String,
+      default: ''
     }
     
+  },
+
+  created () {
+    this.fieldValue = this.value
   },
 
   methods: {
