@@ -85,7 +85,7 @@
   </div>
 </template>
 <script>
-import CgButton from "../CgButton.vue";
+import CgButton from "../common/CgButton.vue";
 export default {
   name: "FormWizard",
   components: { CgButton },
